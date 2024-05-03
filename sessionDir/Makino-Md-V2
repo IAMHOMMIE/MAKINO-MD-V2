@@ -1,1 +1,33 @@
+const express = require('express');
+const { Client } = require('whatsapp-web.js');
+const app = express();
+
+// Initialize WhatsApp client
+const client = new Client();
+client.initialize();
+
+// Endpoint for sending a Bible question
+app.get('/send-question', (req, res) => {
+    const number = req.query.number;
+    const question = "Here's your daily Bible question: ..."; // Replace with actual question
+    const chat = await client.getChatById(number);
+    chat.sendMessage(question);
+    res.send('Question sent!');
+});
+
+// Listen for messages
+client.on('message', message => {
+    if (message.body.startsWith('Answer: ')) {
+        const answer = message.body.slice(8);
+        // Check the answer and update the score
+        // ...
+        const score = "..."; // Replace with actual score
+        message.reply(`Your answer is ${answer}. Your current score is ${score}.`);
+    }
+});
+
+// Start Express server
+app.listen(process.env.PORT || 3000, () => {
+    console.log('Server is running...');
+});
 
