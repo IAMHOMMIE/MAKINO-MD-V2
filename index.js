@@ -1063,4 +1063,20 @@ fs.watchFile(file, () => {
   console.log(chalk.redBright(`${__filename} Updated`));
   delete require.cache[file];
   require(file);
+
+  
+const cron = require('node-cron');
+
+// This is a placeholder function. You should replace this with your actual implementation.
+// This function should return a question and multiple choices.
+function getRandomBibleQuestion() {
+  return {
+    question: "Who was the first king of Israel?",
+    choices: ["A. David", "B. Solomon", "C. Saul", "D. Samuel"]
+  };
+}
+
+// Schedule the task to run at the specified times
+// The cron syntax is 'Seconds Minutes Hours Day-of-month Month Day-of-week'
+// So '0 0 9,12,15
 });
