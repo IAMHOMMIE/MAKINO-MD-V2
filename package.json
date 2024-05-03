@@ -1,7 +1,7 @@
 {
-    "name": "MAKINO-MD-V2",
+    "name": "HOMMIEBOT",
     "version": "1.0.0",
-    "description": "MAKINO-MD-V2is a WhatsApp multiDevice Bot based on A17 and Baileys written in Javascript.",
+    "description": "HOMMIEBOTis a WhatsApp multiDevice Bot based on A17 and Baileys written in Javascript.",
     "main": "index.js",
     "directories": {
         "lib": "lib"
@@ -17,7 +17,7 @@
     "keywords": [
         "md-bot"
     ],
-    "author": "Taira Makino",
+    "author": "HOMMIE™",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/anonphoenix007/MAKINO-MD-V2/issues"
