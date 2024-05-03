@@ -20,11 +20,11 @@ global.statusseen = false;                 //make true to view statuses
 //
 global.Owner = ["I°AM°HOMMIE"];
 global.OwnerNumber = ["254115810149"]; 
-global.ownertag = ["HOMMIE™"]; 
-global.OwnerName = "FLAT NYASH ™";
-global.BotName = "°->FLAT NYASH V2";
+global.ownertag = ["HOMMIE ™"]; 
+global.OwnerName = "I_I'M HOMMIE ™";
+global.BotName = "°->HOMMIE<-";
 global.packname = "HOMMIE";                             //Do not change.
-global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
+global.author = "✅HOMMIE md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
 global.SupportGroupLink = "v2https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm "; 
 
@@ -39,9 +39,9 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Lagos, Nigeria";                   
-global.reactmoji = "🐦";
-global.themeemoji = "😏";
+global.location = "Nairobi, Kenya";                   
+global.reactmoji = "🙏";
+global.themeemoji = "🙏";
 global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
 global.websitex = "https://github.com/anonphoenix007";
 global.lolhuman = "KaysaS";
